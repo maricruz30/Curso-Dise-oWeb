@@ -24,6 +24,24 @@ git add . (puede ser asi cuando hay varios archivos)
 
 git commit -m "Agregando index.html" ..... para agregar el commit
 
+--------------------------------
+git log ...para ver quien hizo los cambios
+
+--------------------
+git log --stat ...para ver las estadisticas del commit
+
+-----------------------------------------------
+ git log --oneline .... muestra los commit que hemos hecho pero solo en una sola linea
+
+------------------------------------------
+git log --graph ..... este nos muestra una grafica
+
+------------------------------------------------
+git log --oneline --graph --all .... ejecuta la grafica en una sola linea
+
+--------------------------------------------------------------------
+para ver las diferencias(entre el commit pasado y el contenido que se acaba de crear) ... git diff
+
 -----------------------
 para eliminar un archivo de stay y no enviarlo al commit hacemos lo siguiente:
 git rm --cached index.html(nombre archivo)
