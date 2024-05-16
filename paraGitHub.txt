@@ -1,0 +1,38 @@
+-----------------------------------------------------GITHUB ---------------------------------------------------------------------
+
+git config --global user.name "Damaris Cruz" --para nombre
+
+git config --global user.email "damariscruzlopez02@gmail.com" ---correo
+
+git config --global color.ui true --- para colores
+
+
+Git ... es un control de versiones
+	nos permite controlar versiones de nuestros proyectos (sirve para cualquier cosa que estemos programando)
+
+
+Ramas ... tenemsos nuestro sitio y queremeos agregar algo nuevo
+
+
+git init ----- para crear repositorio nuevo
+git status ---para ver las versiones
+
+staying index ... fase que tenemos antes de enviar un archivo a una nueva version ... aqui estan todos los archivos preparados para crear la nueva version
+
+para enviar al staying index ---- git add index.html
+git add . (puede ser asi cuando hay varios archivos)
+
+git commit -m "Agregando index.html" ..... para agregar el commit
+
+-----------------------
+para eliminar un archivo de stay y no enviarlo al commit hacemos lo siguiente:
+git rm --cached index.html(nombre archivo)
+
+-------------------- 
+.gitignore 
+
+aqui ponemos el nombre de tods los archivos que queremos que no nos aparezcan en git hub o que queremos que ignore
+
+*.psd
+.psd
+contacto.html
