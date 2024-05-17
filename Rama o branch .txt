@@ -1,0 +1,3 @@
+Rama o branch 
+
+para hacer copias sin afectar la original
